@@ -6,6 +6,7 @@ Folgende Tools werden benötigt:
 * [CC Extensions Signing Toolkit](http://labs.adobe.com/downloads/extensionbuilder3.html) - Unten auf der Seite sind Links zur 32 oder 64 Bit-Version (64 Bit Version ist im Archiv dabei)
 * [Adobe Exchange Packager](http://www.adobeexchange.com/resources) - Im Moment auf der rechten Seite zu finden. (Natürlich mit der AdobeID anmelden)
 
+###Allgmein###
 Guckst Du hier: Ordner **com.novagraphix.photoshoptools**. Hier die `index.html` umbauen, bzw. anpassen. Ist Standard-HTML und CSS, soll wohl kein Problem sein. Die Buttons werden in der `js/main.js` verknüpft. Dort werden dann die Funktionen in der `host/Photoshop.jsx` angesprochen. Wie wir die Funktionen aus Photoshop-Actions erstellen, erkläre ich im nächsten Absatz.
 
 ###Photoshop###
