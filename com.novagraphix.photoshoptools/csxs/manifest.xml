@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ExtensionManifest ExtensionBundleId="com.novagraphix.photoshoptools" ExtensionBundleName="Photoshoptools" ExtensionBundleVersion="0.0.1" Version="4.0">
+  <Author>Stephan Jess</Author>
+  <Abstract>just a fucking great tool</Abstract>
+  <ExtensionList>
+    <Extension Id="com.novagraphix.photoshoptools" Version="0.0.1"/>
+  </ExtensionList>
+  <ExecutionEnvironment>
+    <HostList>
+      <Host Name="PHXS" Version="[14.0,99.9]" />
+      <Host Name="PHSP" Version="[14.0,99.9]" />
+    </HostList>
+    <LocaleList>
+      <Locale Code="All"/>
+    </LocaleList>
+    <RequiredRuntimeList>
+      <RequiredRuntime Name="CSXS" Version="4.0"/>
+    </RequiredRuntimeList>
+  </ExecutionEnvironment>
+  <DispatchInfoList>
+    <Extension Id="com.novagraphix.photoshoptools">
+      <DispatchInfo>
+        <Resources>
+          <MainPath>./index.html</MainPath>
+          <ScriptPath>./host/Photoshop.jsx</ScriptPath>
+        </Resources>
+        <UI>
+          <Type>Panel</Type>
+          <Menu>Photoshoptools by Stephan Jess</Menu>
+          <Geometry>
+            <MinSize>
+              <Height>500</Height>
+              <Width>310</Width>
+            </MinSize>
+            <Size>
+              <Height>500</Height>
+              <Width>310</Width>
+            </Size>
+            <MaxSize>
+              <Height>500</Height>
+              <Width>310</Width>
+            </MaxSize>
+          </Geometry>
+          <Icons>
+            <Icon Type="Normal">./images/icn_23.png</Icon>
+            <Icon Type="RollOver">./images/icn_23.png</Icon>
+            <Icon Type="DarkNormal">./images/icn_23.png</Icon>
+            <Icon Type="DarkRollOver">./images/icn_23.png</Icon>
+          </Icons>
+        </UI>
+      </DispatchInfo>
+    </Extension>
+  </DispatchInfoList>
+</ExtensionManifest>
