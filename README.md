@@ -1,9 +1,9 @@
-Wie baue ich ein Photoshop-Panel
-================================
+Wie baue ich ein Photoshop CC 2014 Panel
+========================================
 - - -
 Folgende Tools werden benötigt:
 
-* [CC Extensions Signing Toolkit](http://labs.adobe.com/downloads/extensionbuilder3.html) - Unten auf der Seite sind Links zur 32 oder 64 Bit-Version
+* [CC Extensions Signing Toolkit](http://labs.adobe.com/downloads/extensionbuilder3.html) - Unten auf der Seite sind Links zur 32 oder 64 Bit-Version (64 Bit Version ist im Archiv dabei)
 * [Adobe Exchange Packager](http://www.adobeexchange.com/resources) - Im Moment auf der rechten Seite zu finden. (Natürlich mit der AdobeID anmelden)
 - - -
 
