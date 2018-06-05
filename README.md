@@ -23,3 +23,12 @@ Jetzt geht es rund. Folgende Zeile (mit den eigenen Daten ;) in die Console eing
 Danach wurde die .zxp erstellt und Du kannst Sie mit dem Adobe Exchange Manager CC installieren.
 
 Easy as cake.......
+
+ADDON 05.06.2018
+
+In case of missing certificate:
+
+First, set the following Adobe preference to prevent your host application (Photoshop, InDesign, etc.) from throwing alerts about unsigned extensions. The HTML Extension Cookbook section on Debugging Unsigned Extensions explains this process:
+
+    Windows: Open regedit > HKEY_CURRENT_USER/Software/Adobe/CSXS.8, then add a new entry PlayerDebugMode of type “string” with the value of “1”.
+
